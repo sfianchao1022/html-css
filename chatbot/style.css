@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+nav{
+    display: block;
+    background-color: black;
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    padding: 1% 5%;
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: brown;
+    transition: ease-in-out;
+}
+.social-media-box{
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+}
+.social-media-box p{
+    display: inline-block;
+    background-color: red;
+}
+.social-media-img{
+    background-color: blue;
+    margin-top: 10px;
+}
+img{
+    width: 10%;
+    height: 80px;
+    margin: 0% 10%;
+
+}
+footer{
+    display: block;
+    background-color:violet;
+    text-align: center;
+}
+footer p{
+    display: inline-block;
+    background-color: yellowgreen;
+    padding: 2% 5%;
+    color: aliceblue;
+    border: 10px solid #666666;
+    font-size: 150%;
+    line-height: 1.5;
+}
