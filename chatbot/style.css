@@ -45,18 +45,21 @@ nav a:hover{
 .developer-wrap{
     width: 90%;
     margin: auto;
-    padding: 5px;
+    padding: 10px;
     background-color: #666666;
+    box-sizing: border-box;
 }
 .col{
     width: 30%;
     background-color: blueviolet;
     margin: 1.5%;
     float: left;
+    text-align: center;
 }
 .col img{
-    width: 100%;
+    width: 90%;
     height: 200px;
+    padding: 5%;
 }
 .clearfix{
     height: 10px;
